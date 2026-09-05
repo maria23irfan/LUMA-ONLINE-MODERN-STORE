@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="LUMA — A modern online store for fashion and lifestyle products.">
+
+    <title>LUMA | Modern Online Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="logo">
+            LUMA<span>.</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#featured">Featured</a>
+            <a href="#sale">Sale</a>
+        </nav>
+
+        <div class="header-icons">
+
+            <button class="icon-btn" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button class="icon-btn" aria-label="Wishlist">
+                <i class="fa-regular fa-heart"></i>
+            </button>
+
+            <button class="icon-btn cart-btn" aria-label="Shopping cart">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span class="cart-count">0</span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">NEW COLLECTION 2026</p>
+
+                <h1>
+                    Designed for
+                    <span>everyday.</span>
+                </h1>
+
+                <p class="hero-text">
+                    Discover carefully selected pieces that bring
+                    simplicity, comfort and style into your everyday life.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#shop" class="btn btn-primary">
+                        Shop Collection
+                    </a>
+
+                    <a href="#featured" class="btn btn-outline">
+                        Explore
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CATEGORIES ================= -->
+
+        <section class="categories">
+
+            <div class="section-heading">
+                <p class="eyebrow">SHOP BY CATEGORY</p>
+                <h2>Find your style.</h2>
+            </div>
+
+            <div class="category-grid">
+
+                <a href="#shop" class="category-card">
+                    <div class="category-image category-fashion"></div>
+                    <div class="category-content">
+                        <h3>Fashion</h3>
+                        <span>Explore →</span>
+                    </div>
+                </a>
+
+                <a href="#shop" class="category-card">
+                    <div class="category-image category-accessories"></div>
+                    <div class="category-content">
+                        <h3>Accessories</h3>
+                        <span>Explore →</span>
+                    </div>
+                </a>
+
+                <a href="#shop" class="category-card">
+                    <div class="category-image category-lifestyle"></div>
+                    <div class="category-content">
+                        <h3>Lifestyle</h3>
+                        <span>Explore →</span>
+                    </div>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SHOP ================= -->
+
+        <section class="shop" id="shop">
+
+            <div class="section-heading section-heading-row">
+
+                <div>
+                    <p class="eyebrow">OUR COLLECTION</p>
+                    <h2>Shop our essentials.</h2>
+                </div>
+
+                <a href="#shop" class="view-all">
+                    View all →
+                </a>
+
+            </div>
+
+
+            <div class="product-grid">
+
+                <!-- Product 1 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+                        <span class="product-tag">NEW</span>
+
+                        <button class="wishlist-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-placeholder">
+                            PRODUCT IMAGE
+                        </div>
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">FASHION</p>
+
+                        <h3>Essential Overshirt</h3>
+
+                        <div class="product-bottom">
+                            <span class="price">$59.00</span>
+
+                            <button class="add-cart">
+                                Add to cart
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 2 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <button class="wishlist-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-placeholder">
+                            PRODUCT IMAGE
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">ACCESSORIES</p>
+
+                        <h3>Minimal Leather Bag</h3>
+
+                        <div class="product-bottom">
+                            <span class="price">$74.00</span>
+
+                            <button class="add-cart">
+                                Add to cart
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 3 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <span class="product-tag sale-tag">
+                            SALE
+                        </span>
+
+                        <button class="wishlist-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-placeholder">
+                            PRODUCT IMAGE
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">FASHION</p>
+
+                        <h3>Classic Knit Sweater</h3>
+
+                        <div class="product-bottom">
+
+                            <div>
+                                <span class="old-price">$68.00</span>
+                                <span class="price">$49.00</span>
+                            </div>
+
+                            <button class="add-cart">
+                                Add to cart
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Product 4 -->
+
+                <article class="product-card">
+
+                    <div class="product-image">
+
+                        <button class="wishlist-btn">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+
+                        <div class="product-placeholder">
+                            PRODUCT IMAGE
+                        </div>
+
+                    </div>
+
+                    <div class="product-info">
+
+                        <p class="product-category">LIFESTYLE</p>
+
+                        <h3>Everyday Sneakers</h3>
+
+                        <div class="product-bottom">
+                            <span class="price">$89.00</span>
+
+                            <button class="add-cart">
+                                Add to cart
+                            </button>
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURED ================= -->
+
+        <section class="featured" id="featured">
+
+            <div class="featured-content">
+
+                <p class="eyebrow">THE LUMA EDIT</p>
+
+                <h2>
+                    Less clutter.
+                    <br>
+                    More character.
+                </h2>
+
+                <p>
+                    Thoughtfully designed essentials made to fit naturally
+                    into your everyday routine.
+                </p>
+
+                <a href="#shop" class="btn btn-primary">
+                    Discover the Edit
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SALE ================= -->
+
+        <section class="sale" id="sale">
+
+            <div class="sale-content">
+
+                <p class="eyebrow">LIMITED TIME</p>
+
+                <h2>Up to 30% off selected pieces.</h2>
+
+                <p>
+                    Refresh your collection with our seasonal offers.
+                </p>
+
+                <a href="#shop" class="btn btn-primary">
+                    Shop the Sale
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= NEWSLETTER ================= -->
+
+        <section class="newsletter">
+
+            <div>
+
+                <p class="eyebrow">STAY IN THE LOOP</p>
+
+                <h2>Get the latest from LUMA.</h2>
+
+                <p>
+                    New arrivals, special offers and style inspiration.
+                </p>
+
+            </div>
+
+            <form class="newsletter-form">
+
+                <input
+                    type="email"
+                    placeholder="Your email address"
+                    aria-label="Email address"
+                >
+
+                <button type="submit">
+                    Subscribe
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <div class="logo">
+                    LUMA<span>.</span>
+                </div>
+
+                <p>
+                    Modern essentials for everyday living.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Shop</h4>
+
+                <a href="#shop">All Products</a>
+                <a href="#shop">Fashion</a>
+                <a href="#shop">Accessories</a>
+                <a href="#sale">Sale</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Help</h4>
+
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQ</a>
+                <a href="#">Contact</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Follow</h4>
+
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+                <a href="#">Facebook</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 LUMA. All rights reserved.
+            </p>
+
+            <p>
+                Designed & built with HTML, CSS & JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART PANEL ================= -->
+
+    <aside class="cart-panel">
+
+        <div class="cart-header">
+
+            <h2>Your Cart</h2>
+
+            <button class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+        <div class="cart-items">
+            <p class="empty-cart">
+                Your cart is empty.
+            </p>
+        </div>
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+                <span>Total</span>
+                <strong>$0.00</strong>
+            </div>
+
+            <button class="checkout-btn">
+                Checkout
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <div class="cart-overlay"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
